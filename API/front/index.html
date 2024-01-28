@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+		<title>Classic cars</title>
+
+		<!-- Favicons -->
+		<link
+			rel="apple-touch-icon"
+			href="./imgs/apple-touch-icon.png"
+			sizes="180x180" />
+		<link
+			rel="icon"
+			href="./imgs/favicon-32x32.png"
+			sizes="32x32"
+			type="image/png" />
+		<link
+			rel="icon"
+			href="./imgs/favicon-16x16.png"
+			sizes="16x16"
+			type="image/png" />
+		<link rel="manifest" href="./imgs/manifest.json" />
+		<link
+			rel="mask-icon"
+			href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
+			color="#7952b3" />
+		<link rel="icon" href="./imgs/favicon.ico" />
+		<meta name="theme-color" content="#7952b3" />
+		<style>
+			.card-cont {
+				display: flex;
+				justify-content: space-evenly;
+				flex-wrap: wrap;
+				width: 100%;
+			}
+			.card {
+				width: 32.5%;
+				min-width: 355px;
+			}
+			.card img {
+				min-width: 535px;
+				transition: all 250ms ease-in-out;
+			}
+			.card img:hover {
+				min-width: 555px;
+			}
+			.card a:first-child {
+				overflow: hidden;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 235px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md" aria-label="Classic cars site">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img
+							src="./imgs/logo-180.png"
+							alt="classic cars"
+							width="40"
+							height="38"
+							class="" />
+						Classic Cars
+					</a>
+					<div>
+						<button
+							class="navbar-toggler collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarsExample04"
+							aria-controls="navbarsExample04"
+							aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="navbar-collapse collapse" id="navbarsExample04">
+							<ul class="navbar-nav me-auto mb-2 mb-md-0">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Link</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<h1 class="text-center mt-4">Classic cars</h1>
+				<section class="card-cont">
+					<!-- doit être généré dynamiquement avec javascript  -->
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="./imgs/cars/mercedes-01.jpg"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+					<!-- jusqu'à ici  -->
+
+					<!-- effacer !  -->
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="./imgs/cars/panter-01.jpg"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="https://assets.carandclassic.com/listing-assets/cadillac/de-ville-cabriolet/1966-cadillac-de-ville-cabriolet-14190049465-nVYdXg/lTOzTDZoBdxH8yzAG2zi9MOOpxZR8W0KlIrWw8Fa.jpg?auto=compress&ixlib=php-4.1.0&s=e9d67e385e77d2f7643e7b6bdb3fe4d6"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="https://assets.carandclassic.com/listing-assets/porsche/911-targa-olklappe/1972-porsche-911-targa-olklappe-nQBox4/MMVYlUibSXczYnhVL9m2YYr2EChvKTkutYRhs0LC.jpg?auto=compress&ixlib=php-4.1.0&s=1a51d081091dda72408de6241b34ffbd"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="https://assets.carandclassic.com/uploads/cars/austin-healey/C1630270/1959-austin-healey-frogeye-sprite-64fc1ec7e2743.jpg?ar=16%3A9&auto=enhance%2Ccompress&fill=solid&fill-color=%23000000&fit=fill&h=2160&ixlib=php-4.1.0&q=100&w=3840&s=cf0bb21b9246e95bbec7adba226d9bc1"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+
+					<article class="card shadow-sm">
+						<a href="car.html?id=1">
+							<img
+								src="https://assets.carandclassic.com/uploads/cars/morris/C1632463/1929-morris-cowley-64fb42c72addc.jpg?ixlib=php-4.1.0&s=f6ebc9024873b2712098a8fb887300a6"
+								class="card-img-top"
+								alt="..." />
+						</a>
+						<div class="card-body">
+							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
+							<p class="card-text">
+								An iconic merger of beautiful Italian styling, and legendary
+								Ford V8 performance"
+							</p>
+							<a href="car.html?id=1" class="btn btn-primary">See more</a>
+						</div>
+					</article>
+					<!-- effacer !  -->
+				</section>
+			</div>
+		</main>
+		<footer class="text-muted py-5">
+			<div class="container">
+				<p class="float-end mb-1">
+					<a href="#">Back to top</a>
+				</p>
+				<p class="mb-1">
+					Images from
+					<a href="https://www.carandclassic.com/" target="_blank"
+						>carandclassic.com</a
+					>
+				</p>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

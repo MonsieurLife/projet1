@@ -1,0 +1,51 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "title": "1972 DE TOMASO PANTERA",
+      "Vehicle specification": {
+        "year": 1972,
+        "make": "De Tomaso",
+        "model": "Pantera",
+        "color": "Red",
+        "engine size": 5800
+      },
+      "highlights": [
+        "An iconic merger of beautiful Italian styling, and legendary Ford V8 performance",
+        "Presented in good condition inside and out, benefiting from previous refurbishment",
+        "Offered in very good mechanical health, with a recent engine overhaul to note",
+        "Stands as a very rare, pre-L US specification example"
+      ],
+      "images": [
+        "panter-01.jpg",
+        "panter-02.jpg",
+        "panter-03.jpg",
+        "panter-04.jpg",
+        "panter-05.jpg",
+        "panter-06.jpg"
+      ]
+    },
+    {
+      "title": "1982 MERCEDES-BENZ G-WAGEN PICKUP",
+      "Vehicle specification": {
+        "year": 1982,
+        "make": "Mercedes",
+        "model": "G Wagon",
+        "color": "Black",
+        "engine size": null
+      },
+      "highlights": [
+        "Exhaustively restored and upgraded",
+        "This Long-Wheel-Base G-Wagon Pickup, has recently enjoyed a comprehensive restoration and upgrade to Mercedes 4. 3 V8 power",
+        "During the restoration the G-Wagen was stripped to a bare chassis, which was blasted and then treated with etch primer and three coats of two-pack paint"
+      ],
+      "images": [
+        "mercedes-01.jpg",
+        "mercedes-02.jpg",
+        "mercedes-03.jpg",
+        "mercedes-04.jpg"
+      ],
+      "id": 2
+    }
+  ]
+}
